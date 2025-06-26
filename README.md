@@ -1,4 +1,4 @@
-ver readme link https://jeisonnore.github.io/crud-estudiantes/
+
 
 # 🎓 Sistema de Gestión de Estudiantes (CRUD)
 
