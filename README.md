@@ -63,21 +63,8 @@ gestion-estudiantes/
 ├── conexion.php             # Configuración de la DB
 ├── index.php                # Vista principal
 ├── agregar_estudiante.php   # Lógica de creación
-├── editar_estudiante.php    # Formulario de edición
 ├── actualizar_estudiante.php # Lógica de actualización
 └── eliminar_estudiante.php  # Lógica de eliminación
-📌 Requisitos
-PHP 8.0 o superior
 
-MySQL 5.7+
 
-Servidor web (Apache/Nginx recomendado)
-
-Navegador moderno (Chrome, Firefox, Edge)
-
-🤝 Contribuciones
-Las contribuciones son bienvenidas. Por favor abre un issue o envía un PR.
-
-📄 Licencia
-MIT License - Ver LICENSE para más detalles.
 
