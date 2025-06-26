@@ -1,5 +1,4 @@
 
-https://jeisonnore.github.io/crud-estudiantes/
 # 🎓 Sistema de Gestión de Estudiantes (CRUD)
 
 [![PHP](https://img.shields.io/badge/PHP-8.0+-blue.svg)](https://php.net/)
@@ -8,17 +7,16 @@ https://jeisonnore.github.io/crud-estudiantes/
 [![SweetAlert2](https://img.shields.io/badge/SweetAlert2-11.0-yellow.svg)](https://sweetalert2.github.io/)
 
 Sistema CRUD completo para gestión de estudiantes con interfaz intuitiva y validaciones robustas.
-![Captura de pantalla 2025-06-25 191737](https://github.com/user-attachments/assets/09507eae-007f-4809-bd88-4aeeee1c0565)
 
+---
 
-![Captura de pantalla 2025-06-25 191834](https://github.com/user-attachments/assets/316ab7e3-5f06-4026-ae7f-0fbaa005382e)
+## 🖼️ Vista previa
 
+![Pantalla principal](https://github.com/user-attachments/assets/09507eae-007f-4809-bd88-4aeeee1c0565)
+![Formulario de edición](https://github.com/user-attachments/assets/316ab7e3-5f06-4026-ae7f-0fbaa005382e)
+![Modal editar estudiante](https://github.com/user-attachments/assets/f3c14534-5f32-4087-b2a6-d1129499e752)
 
-![Captura de pantalla 2025-06-25 191859](https://github.com/user-attachments/assets/f3c14534-5f32-4087-b2a6-d1129499e752)
-
-
-
-
+---
 
 ## ✨ Características principales
 
@@ -29,6 +27,8 @@ Sistema CRUD completo para gestión de estudiantes con interfaz intuitiva y vali
 - 📱 Diseño responsive compatible con móviles
 - 💬 Notificaciones elegantes con SweetAlert2
 
+---
+
 ## 🛠️ Tecnologías utilizadas
 
 - **Backend**: PHP 8.0+
@@ -36,14 +36,19 @@ Sistema CRUD completo para gestión de estudiantes con interfaz intuitiva y vali
 - **Base de datos**: MySQL 8.0
 - **Servidor**: Apache/Nginx
 
+---
+
 ## 🚀 Instalación rápida
 
 1. Clona el repositorio:
+
 ```bash
-git clone https://github.com/tu-usuario/gestion-estudiantes.git
-Importa la base de datos:
+git clone https://github.com/Jeisonnore/crud-estudiantes.git
+Importa la base de datos en MySQL:
 
 sql
+Copiar
+Editar
 CREATE DATABASE colegio;
 USE colegio;
 
@@ -54,20 +59,29 @@ CREATE TABLE estudiantes (
   correo VARCHAR(100) NOT NULL,
   telefono VARCHAR(20)
 );
-Configura la conexión (conexion.php):
+Configura la conexión en conexion.php:
 
 php
+Copiar
+Editar
 $conexion = new mysqli("localhost", "tu_usuario", "tu_contraseña", "colegio");
-¡Listo! Accede a index.php desde tu navegador.
+Abre el proyecto desde tu navegador:
+http://localhost/colegio/index.php
 
 🧩 Estructura de archivos
-text
-gestion-estudiantes/
-├── conexion.php             # Configuración de la DB
-├── index.php                # Vista principal
-├── agregar_estudiante.php   # Lógica de creación
-├── actualizar_estudiante.php # Lógica de actualización
-└── eliminar_estudiante.php  # Lógica de eliminación
-
+perl
+Copiar
+Editar
+crud-estudiantes/
+├── conexion.php                  # Configuración de la base de datos
+├── index/
+│   ├── index.php                # Vista principal
+│   ├── agregar_estudiante.php  # Crear estudiantes
+│   ├── actualizar_estudiante.php # Editar estudiantes
+│   └── eliminar_estudiante.php # Eliminar estudiantes
+└── README.md
+🌐 Demo en línea
+Puedes ver una versión en vivo en:
+👉 https://jeisonnore.github.io/crud-estudiantes/
 
 
