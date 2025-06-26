@@ -10,7 +10,7 @@ https://jeisonnore.github.io/crud-estudiantes/
 Sistema CRUD completo para gestión de estudiantes con interfaz intuitiva y validaciones robustas.
 
 ![Captura de pantalla 2025-06-25 191834](https://github.com/user-attachments/assets/316ab7e3-5f06-4026-ae7f-0fbaa005382e)
-![Captura de pantalla 2025-06-25 191834](https://github.com/user-attachments/assets/316ab7e3-5f06-4026-ae7f-0fbaa005382e)
+
 
 ![Captura de pantalla 2025-06-25 191859](https://github.com/user-attachments/assets/f3c14534-5f32-4087-b2a6-d1129499e752)
 
